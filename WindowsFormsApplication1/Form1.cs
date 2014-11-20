@@ -65,7 +65,9 @@ namespace WindowsFormsApplication1
 
             for (int i = 0; i < size; i++)  //initialize counters
             {
-                fiancee[i] = i;
+                //bugged one size is the fix 
+                //fiancee[i] = i;
+                fiancee[i] = size;
                 next[i] = -1;
             }
 
